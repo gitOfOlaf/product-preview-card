@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,700;1,100;1,200&family=Raleway:wght@100;400;500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,700;1,100;1,200&family=Raleway:wght@100;400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  font-family: Montserrat, Fraunces;
+  background-color: hsl(30, 38%, 92%);
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+p {
+  font-size: 0.875rem; /* 14px; */
+}
+
+.perfume {
+  letter-spacing: 5px;
+  margin-top: 20px;
+}
+
+div.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  /* position: absolute;
+  left: 50%;
+  top: 50%; 
+  transform: translate(-50%, -50%);*/
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+}
+
+div.image {
+  height: 424px;
+  background-image: url("/images/image-product-desktop.jpg");
+  width: 300px;
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+/* div.image img {
+  height: 100%;
+
+} */
+
+div.content {
+  padding: 0px 30px;
+  color: hsl(228, 12%, 48%);
+  max-width: 50%;
+}
+
+div.content h2 {
+  font-size: 35px;
+  line-height: 40px;
+  color: hsl(212, 21%, 14%);
+  padding: 20px 0px;
+}
+
+.pricing {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#realPrice {
+  color: hsl(158, 36%, 37%);
+  font-size: 40px;
+  padding-right: 30px;
+  font-weight: bold;
+}
+
+#discounted {
+  text-decoration: line-through;
+}
+
+div.btn {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  width: 80%;
+  border-radius: 10px;
+  color: #f3f3f3;
+  height: 40px;
+  transition: all 0.5s ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: hsl(212, 21%, 14%);
+}
+
+button:active {
+  transform: translate(0%, -5%);
+}
+
+div.attribution {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  color: hsl(228, 45%, 44%);
+  font-size: 11px;
+  text-align: center;
+}
+
+/* Media queries */
+@media (max-width: 600px) and (orientation: portrait) {
+  div.container {
+    flex-direction: column;
+    width: 300px;
+    /* margin-top: 40px; */
+  }
+
+  div.content {
+    max-width: 100%;
+  }
+
+  div.content h2 {
+    line-height: normal;
+    font-size: 30px;
+  }
+
+  .perfume {
+    margin-top: 30px;
+  }
+
+  div.attribution {
+    bottom: 5px;
+    font-size: 16px;
+  }
+
+  div.image {
+    width: 100%;
+    background-image: url("/images/image-product-mobile.jpg");
+    height: 200px;
+  }
+
+  #realPrice {
+    font-size: 25px;
+  }
+
+  button {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-height: 667px) and (orientation: portrait) {
+  div.attribution {
+    display: none;
+  }
+}
