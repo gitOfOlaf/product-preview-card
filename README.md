@@ -31,7 +31,7 @@ See hover and focus states for interactive elements
 ## links
 
 Here is the link to the deployed version of this site
-https://prouct-preview-card.netlify.app/
+https://productperf.netlify.app/
 
 ## my-process
 
