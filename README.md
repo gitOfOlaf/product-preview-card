@@ -31,6 +31,7 @@ See hover and focus states for interactive elements
 ## links
 
 Here is the link to the deployed version of this site
+https://prouct-preview-card.netlify.app/
 
 ## my-process
 
@@ -38,7 +39,13 @@ I built this starting from desktop and then optimizing for mobile experience (de
 
 ## built-with
 
-This was entirely built with HTML, CSS, and a tiny bit of JavaScript
+This was entirely built with:
+
+- HTML
+- CSS
+- FLEXBOX
+- DESKTOP FIRST WORKFLOW
+- JAVASCRIPT
 
 ## what-i-learned
 
@@ -49,4 +56,6 @@ I also improved my skill on mobile responsiveness amongst others
 
 ## Author
 
-My name is Abdullah Ayoola, a passionate web developer taking javascript courses and aspiring full stack developer.
+- Website - [Abdullah Ayoola](https://github.com/abdullah43577)
+- Frontend Mentor - [@abdullah43577](https://www.frontendmentor.io/profile/abdullah43577)
+- Twitter - [@officialayo540](https://twitter.com/officialayo540)
