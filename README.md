@@ -10,7 +10,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-- [Author](#author)
 
 ## overview
 
@@ -54,8 +53,3 @@ some of the things I learnt, which I don't normally do in my normal project, was
 
 I also improved my skill on mobile responsiveness amongst others
 
-## Author
-
-- Website - [Abdullah Ayoola](https://github.com/abdullah43577)
-- Frontend Mentor - [@abdullah43577](https://www.frontendmentor.io/profile/abdullah43577)
-- Twitter - [@officialayo540](https://twitter.com/officialayo540)
